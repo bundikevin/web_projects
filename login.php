@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="container" style="background: yellow">
-	<div id="frm">
+	<div id="frm" class="form-group">
 		<div class="h1">Login</div>
 		<form action="process.php" method="POST">
 			<p>
