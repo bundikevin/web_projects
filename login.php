@@ -2,11 +2,17 @@
 <html>
 <head>
 	<title>Login Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	 
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/bootstrap.css">
 </head>
 <body>
+
 <div class="container" style="background: yellow">
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+  </a>
+</nav>
 	<div id="frm" class="form-group">
 		<div class="h1">Login</div>
 		<form action="process.php" method="POST">
