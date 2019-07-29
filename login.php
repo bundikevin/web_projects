@@ -15,7 +15,7 @@
 </nav>
  <div class="container" >
  <div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post">
+    <form action=" " method="post">
         <h2 class="text-center">Log in</h2>       
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Username" required="required">
