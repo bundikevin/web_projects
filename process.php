@@ -1,8 +1,8 @@
 <?php 
 // Get values pass from form in login.php
 
-$username = $_POST['user'];
-$password = $_POST['pass'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 // To prevent mysql injection
 
