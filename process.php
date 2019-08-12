@@ -12,8 +12,7 @@ $username = mysql_real_escape_string($username);
 $password = mysql_real_escape_string($password);
 
 // Connect to the server and select database
-mysql_connect("localhost", "root", "");
-mysql_select_db("php_tutorial");
+require_once "includes/config.php";
 
 // Query the database for user
 

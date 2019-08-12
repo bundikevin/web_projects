@@ -14,15 +14,16 @@
  <div class="container" >
  <div class="login-form">
     <form action="process.php" method="post">
-        <h2 class="text-center">Log in</h2>       
+        <h2 class="text-center">Login</h2>  
+		<hr/>     
         <div class="form-group">
             <input type="text" class="form-control" name="username" placeholder="Username" required="required">
         </div>
         <div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
         </div>
-        <div class="form-group" id="btn">
-            <button type="submit" class="btn btn-primary ">Login</button>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary " >Login</button>
         </div>
         <div class="clearfix">
             <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
