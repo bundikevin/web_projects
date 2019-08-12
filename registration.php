@@ -33,14 +33,18 @@
 					<input type="email" class="form-control" name="email1" placeholder="Email" required="required">
 				</div>
 				<div class="form-group">
-					<input type="password" class="form-control" name="password1" placeholder="Password" required="required">
+					<input type="password" class="form-control" name="password" placeholder="Password" required="required">
 				</div>
 				<div class="form-group">
 					<input type="password" class="form-control" name="confirpassword" placeholder="Confirm Password" required="required">
 				</div>
-				<div class="form-group">
+				<div class="form-group" id="">
 					<button type="submit" class="btn btn-primary">Register</button>
+					<p class="pull-right">
+						Already a member?<a href="login.php">Login</P>
+					</p>
 				</div>
+				
 			</form>
 		</div>
 	</div>

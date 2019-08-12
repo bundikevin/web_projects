@@ -23,12 +23,16 @@
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
         </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary " >Login</button>
+			<button type="submit" class="btn btn-primary " >Login</button>|
+			<label class="pull-right checkbox-inline"><input type="checkbox"> Remember me</label>|
+			<a href="#" class="pull-right">Forgot Password?</a>
         </div>
         <div class="clearfix">
-            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
-            <a href="#" class="pull-right">Forgot Password?</a>
-        </div>        
+            
+		</div> 
+		<p>
+			Not yet a member?<a href="registration.php">Register</P>
+		</p>       
     </form>
      
 </div>
