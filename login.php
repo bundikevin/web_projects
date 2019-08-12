@@ -17,7 +17,7 @@
         <h2 class="text-center">Login</h2>  
 		<hr/>     
         <div class="form-group">
-            <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+            <input type="text" class="form-control" name="email" placeholder="Username" required="required">
         </div>
         <div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">

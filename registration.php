@@ -14,9 +14,9 @@
 		include 'includes/navbar.php'
 	?>
 	<div class="container">
-		<div class="registration-form">
-			<form action="registration.php">
-				<h4 class="text-center">Registration Form</h4>
+		<div class="login-form">
+			<form method="POST" action="process.php">
+				<h2 class="text-center">Create Account</h2>
 				<div class="form-group">
 					<input type="text" class="form-control" name="firstname" placeholder="First Name" required="required">
 				</div>
